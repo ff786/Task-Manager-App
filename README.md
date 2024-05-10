@@ -1,2 +1,2 @@
-# Task-Manager-App
+# Emerald-Oasis-Task-Manager-App
 Task Managing App for the MAD Project
