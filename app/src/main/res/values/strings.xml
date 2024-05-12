@@ -5,6 +5,8 @@
     <string name="given_date">Select Given Date</string>
     <string name="receives_name">Enter Receive\'s Name</string>
     <string name="detailed_description">Enter Detailed Description</string>
+    <string name="emerald_oasis">Emerald Oasis</string>
+    <string name="reminder_tasks">Reminder Tasks</string>
     <string-array name="reminder_type">
         <item>Cheque</item>
         <item>Gem Certificate</item>
@@ -14,4 +16,9 @@
         <item>Medium</item>
         <item>Low</item>
     </string-array>
+    <string name="add_note">Add Note</string>
+    <string name="enter_reminder_type">Enter Reminder Type</string>
+    <string name="enter_task_description">Enter Task Description</string>
+    <string name="enter_task_priority">Enter Task Priority</string>
+    <string name="enter_task_due_date">Enter Task Due Date</string>
 </resources>
