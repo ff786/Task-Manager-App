@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="create_new_task">Create New Reminder</string>
+    <string name="create_new">Create New</string>
+    <string name="given_date">Select Given Date</string>
+    <string name="receives_name">Enter Receive\'s Name</string>
+    <string name="detailed_description">Enter Detailed Description</string>
+    <string-array name="reminder_type">
+        <item>Cheque</item>
+        <item>Gem Certificate</item>
+    </string-array>
+    <string-array name="priority_type">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
 </resources>
