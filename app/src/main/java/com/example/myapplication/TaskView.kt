@@ -1,9 +1,9 @@
 package com.example.myapplication
 
 import android.app.Application
-import androidx.lifecycle.viewmodelScope
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -18,7 +18,7 @@ class TaskView(application: Application) : AndroidViewModel(application){
             allTasks= repository.allTasks
         }
 
-        fun deleteTask(task: Task) = viewmodelScope.launch (Dispatchers.IO){
+        fun deleteTask(task: Task) = viewModelScope.launch (Dispatchers.IO){
             repository.delete(task)
         }
         fun updateTask(task: Task) = viewModelScope.launch (Dispatchers.IO){

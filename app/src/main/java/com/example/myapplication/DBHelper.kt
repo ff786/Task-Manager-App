@@ -1,3 +1,4 @@
+/*
 package com.example.myapplication
 
 import android.content.ContentValues
@@ -70,3 +71,4 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory?) :
         val DESCRIPTION = "gemDescription"
     }
 }
+*/
